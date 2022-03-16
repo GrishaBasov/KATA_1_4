@@ -63,7 +63,7 @@ button {
 body {
     box-sizing: border-box;
     width:320px;
-    height:100vh;
+    height:auto;
     box-shadow: 10px 0 5px -5px rgba(0, 0, 0, .5);
 
 }
