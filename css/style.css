@@ -61,9 +61,7 @@ button {
 }
 
 body {
-    box-sizing: border-box;
     width:320px;
-    height:auto;
     box-shadow: 10px 0 5px -5px rgba(0, 0, 0, .5);
 
 }
@@ -125,6 +123,8 @@ body {
 body {
     margin:0;
     padding:0;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
