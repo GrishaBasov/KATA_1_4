@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('TTLakes-Medium.eot');
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+    url('TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+    url('TTLakes-Medium.woff') format('woff'),
+    url('TTLakes-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('TTLakes-DemiBold.eot');
+    src: local('TT Lakes DemiBold'), local('TTLakes-DemiBold'),
+    url('TTLakes-DemiBold.eot?#iefix') format('embedded-opentype'),
+    url('TTLakes-DemiBold.woff') format('woff'),
+    url('TTLakes-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+button {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.header {
+    width:320px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    display:flex;
+    padding:18px 0 18px 0;
+    align-items: center;
+
+}
+
+.header__btn-close {
+    background-image: url("../img/close.svg");
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    margin-left:18px;
+}
+
+.header__btn-search {
+    background-image: url("../img/search.svg");
+    width:40px;
+    height:40px;
+    border-radius:50%;
+
+}
+
+.header__img-logo {
+    margin-left:10px;
+}
+
+.header__btn-search {
+    margin-left:70px;
+}
+
+body {
+    box-sizing: border-box;
+    width:320px;
+    height:100vh;
+    box-shadow: 10px 0 5px -5px rgba(0, 0, 0, .5);
+
+}
+
+.main-menu {
+    margin-top: -11px;
+
+
+}
+
+.main-menu__ul li:nth-child(1) a {
+    color:#7E7E82;
+    font-family: "TT Lakes",sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.main-menu__ul li:nth-child(1) a::before {
+    content:"";
+    position:absolute;
+    width:4px;
+    height:32px;
+    background-color:#41F6D7;
+    border-radius:0 20px 20px 0;
+    left: 0;
+    top: 102px;
+
+}
+
+.main-menu {
+    width:320px;
+    height:500px;
+    box-sizing: border-box;
+
+
+}
+
+.main-menu__ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.main-menu__ul li {
+    padding: 32px 0 0 24px;
+
+}
+
+.main-menu__ul li a {
+    text-decoration:none;
+    color:black;
+    font-size: 16px;
+    font-family: "TT Lakes",sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.footer {
+    margin-top: -11px;
+    width:320px;
+    height:200px;
+    box-sizing: border-box;
+
+
+}
+
+.footer-menu {
+    box-sizing: border-box;
+    width:320px;
+    display: flex;
+}
+
+.footer-menu__btn-call {
+    margin-left:15px;
+    padding-right:15px;
+}
+
+.footer-menu__btn-chat {
+    padding-right:15px;
+}
+
+.footer-menu__btn-profile{
+
+}
+
+.footer-mail {
+    width:320px;
+    height:40px;
+    box-sizing: border-box;
+    vertical-align: center;
+    line-height: 50px;
+    padding-left:20px;
+}
+
+.footer-mail {
+    display: block;
+    text-decoration: none;
+    font-family: "TT Lakes",sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    font-style: normal;
+    color:black;
+}
+
+.footer-phone-number{
+    display: block;
+    width:320px;
+    box-sizing: border-box;
+    height:30px;
+    vertical-align: center;
+    line-height: 50px;
+    padding-left:20px;
+    font-family: "TT Lakes",sans-serif;
+    font-weight: 600;
+    font-size:24px;
+    font-style: normal;
+    color:black;
+    text-decoration: none;
+
+}
+
+.footer-language {
+    margin-top: 30px;
+    width:320px;
+    box-sizing: border-box;
+    height:50px;
+    vertical-align: center;
+    line-height: 50px;
+    padding-left:20px;
+}
+
+.footer-language ul {
+
+    list-style: none;
+    padding:0;
+    margin:0;
+
+}
+
+.footer-language ul li {
+    display: inline-block;
+}
+
+
+
+.footer-language ul li a {
+    text-decoration: none;
+    font-family: "TT Lakes",sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    font-style: normal;
+    color:black;
+    padding-right: 5px;
+}
+
+.footer-language .active {
+    color:#7E7E82;
+}
+
+.header button:hover {
+    cursor: pointer;
+    transition-duration:0.6s;
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+.footer-menu button:hover {
+    cursor: pointer;
+    opacity:0.6;
+    transition-duration:0.6s;
+}
+
+
